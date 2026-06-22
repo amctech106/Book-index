@@ -292,8 +292,8 @@ td:nth-child(2n) {
 /* یہاں سے کتاب الصوم کی ٹیبل کی اسٹائلنگ شروع ہے  */
 
 .som{
-  direction: rtl;
-border-collapse: collapse;
+direction: rtl !important;
+border-collapse: collapse !important;
 border:1px solid #000;
 margin: 20px auto;
 font-size: x-large;
