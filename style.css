@@ -999,3 +999,150 @@ td:nth-child(2n) {
   text-align: center;
   width:20%;
 }
+
+
+/* ===========================
+  ریسپانسو والا حصہ 
+=========================== */
+
+/* ٹیبلیٹ یا بڑے سائز کے موبائل وغیر کے لیے  */
+
+@media (max-width:992px){
+
+.hcontainer{
+    flex-wrap:wrap;
+    gap:20px;
+    text-align:center;
+}
+
+.logo,
+.mufti-image{
+    margin-left:0;
+}
+
+.search{
+    width:85%;
+    font-size:28px;
+}
+
+.index{
+    font-size:70px;
+}
+
+.btns a{
+    margin:0 80px;
+    font-size:24px;
+}
+
+.slide{
+    top:-320px;
+}
+
+}
+
+
+/* صرف موبائل ڈوائس کے لیے */
+
+@media (max-width:768px){
+
+h1{
+    margin-right:0;
+    font-size:28px;
+}
+
+.logo,
+.mufti-image{
+    width:80px;
+    height:80px;
+}
+
+.search{
+    width:90%;
+    font-size:24px;
+    padding:12px;
+}
+
+.index{
+    font-size:50px;
+}
+
+.btns a{
+    display:block;
+    margin:0 20px;
+    text-align:center;
+    font-size:22px;
+    padding:10px;
+}
+
+.slide{
+    top:-250px;
+}
+
+.tafheem{
+    height:40vh;
+}
+
+.aquaid,
+.taharat,
+.salat,
+.som,
+.zakat,
+.hajj,
+.nikah,
+.talaq,
+.buyoo,
+.yameen,
+.janaiz,
+.eidain,
+.udahi,
+.faraiz,
+.idat,
+.riza,
+.masajid,
+.royat,
+.hidanat,
+.halal,
+.mutfariq,
+.asma,
+.seerat,
+.aurtoon{
+
+    width:95%;
+    font-size:18px;
+}
+
+td,
+th{
+    padding:8px;
+}
+
+}
+
+
+/* چھوٹے موبائل ----------------- */
+
+@media (max-width:480px){
+
+.index{
+    font-size:38px;
+}
+
+.search{
+    font-size:20px;
+}
+
+.btns a{
+    font-size:20px;
+}
+
+.logo,
+.mufti-image{
+    width:70px;
+    height:70px;
+}
+
+.slide{
+    top:-200px;
+}
+
+}
