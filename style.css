@@ -1206,3 +1206,102 @@ h1{
 }
 
 }
+
+/* ===========================
+  ہیڈر ریسپانسو  *//* ===========================
+=========================== */
+
+@media (max-width:768px){
+
+.hcontainer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+    padding:8px;
+}
+
+/* دونوں سائڈ والے حصے */
+
+.mufti-azam,
+.naeemia{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:28%;
+    text-align:center;
+}
+
+/* درمیان والا حصہ */
+
+.title{
+    width:44%;
+    text-align:center;
+    margin:0;
+}
+
+/* تصاویر */
+
+.logo,
+.mufti-image{
+    width:45px;
+    height:45px;
+    margin:0 auto 5px;
+    display:block;
+}
+
+/* دونوں سائڈ والے عنوان */
+
+.mufti-azam h1,
+.naeemia h1{
+    margin:0;
+    font-size:12px;
+    line-height:1.4;
+    text-align:center;
+}
+
+/* درمیان والا عنوان */
+
+.title h1{
+    margin:0 0 8px;
+    font-size:18px;
+    line-height:1.4;
+}
+
+/* بٹن */
+
+.index-btn{
+    padding:6px 16px;
+    font-size:15px;
+}
+
+}
+
+/* ===========================
+  چھوٹے موبائل کے لیے  *//* ===========================
+=========================== */
+
+@media (max-width:480px){
+
+.logo,
+.mufti-image{
+    width:38px;
+    height:38px;
+}
+
+.mufti-azam h1,
+.naeemia h1{
+    font-size:10px;
+}
+
+.title h1{
+    font-size:15px;
+}
+
+.index-btn{
+    padding:5px 12px;
+    font-size:13px;
+}
+
+}
