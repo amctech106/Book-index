@@ -1005,19 +1005,38 @@ td:nth-child(2n) {
   ریسپانسو والا حصہ 
 =========================== */
 
-/* ٹیبلیٹ یا بڑے سائز کے موبائل وغیر کے لیے  */
+/* ٹیبلیٹ یا بڑے سائز کے موبائل وغیر کے لیے  *//* =========================== */
 
 @media (max-width:992px){
 
 .hcontainer{
-    flex-wrap:wrap;
-    gap:20px;
-    text-align:center;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:nowrap;
+    padding:10px;
 }
 
 .logo,
 .mufti-image{
-    margin-left:0;
+    width:80px;
+    height:80px;
+    margin:0;
+}
+
+.title{
+    margin-top:10px;
+}
+
+h1{
+    margin:0;
+    font-size:32px;
+    text-align:center;
+}
+
+.index-btn{
+    padding:10px 35px;
+    font-size:20px;
 }
 
 .search{
@@ -1041,19 +1060,41 @@ td:nth-child(2n) {
 }
 
 
-/* صرف موبائل ڈوائس کے لیے */
+/* ===========================
+  موبائل کے لیے  *//* ===========================
+  
+=========================== */
 
 @media (max-width:768px){
 
-h1{
-    margin-right:0;
-    font-size:28px;
+.hcontainer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:nowrap;
+    padding:10px;
 }
 
 .logo,
 .mufti-image{
-    width:80px;
-    height:80px;
+    width:60px;
+    height:60px;
+    margin:0;
+}
+
+.title{
+    margin-top:10px;
+}
+
+h1{
+    margin:0;
+    font-size:22px;
+    text-align:center;
+}
+
+.index-btn{
+    padding:8px 25px;
+    font-size:18px;
 }
 
 .search{
@@ -1106,7 +1147,6 @@ h1{
 .asma,
 .seerat,
 .aurtoon{
-
     width:95%;
     font-size:18px;
 }
@@ -1119,26 +1159,46 @@ th{
 }
 
 
-/* چھوٹے موبائل ----------------- */
+/* ===========================
+  چھوٹے موبائل کے لیے  *//* ===========================
+=========================== */
 
 @media (max-width:480px){
+
+.hcontainer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:nowrap;
+    padding:8px;
+}
+
+.logo,
+.mufti-image{
+    width:50px;
+    height:50px;
+}
+
+h1{
+    font-size:18px;
+}
+
+.index-btn{
+    padding:6px 18px;
+    font-size:16px;
+}
 
 .index{
     font-size:38px;
 }
 
 .search{
+    width:95%;
     font-size:20px;
 }
 
 .btns a{
     font-size:20px;
-}
-
-.logo,
-.mufti-image{
-    width:70px;
-    height:70px;
 }
 
 .slide{
